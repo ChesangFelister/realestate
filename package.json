@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "react-icon": "^1.0.0",
+    "react-scroll": "^1.9.3"
+  }
+}
