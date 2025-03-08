@@ -14,7 +14,7 @@ const Contact = () => {
     });
   }, []);
 
-  const { darkMode } = useDarkMode();
+  const { darkMode, toggleDarkMode } = useDarkMode();
 
   return (
     <div className={`${darkMode ? "dark bg-black" : "light bg-transparent"} pb-20`}>

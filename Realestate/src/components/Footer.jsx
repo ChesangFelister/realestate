@@ -11,7 +11,7 @@ import {
   FaMobile,
 } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { FaArrowUp, FaBuilding, FaFax, FaMoon } from "react-icons/fa6";
+import { FaArrowUp, FaBuilding, FaFax, FaMoon, FaSun } from "react-icons/fa6";
 import prop7 from "../assets/images/prop7.jpg";
 import prop8 from "../assets/images/prop8.jpg";
 
@@ -91,7 +91,7 @@ const Footer = () => {
         onClick={toggleDarkMode}
         className="flex items-center p-4 rounded-full bg-orange-500 fixed right-6 lg:top-52 top-6 hover:bg-orange-600 transition-colors duration-300 shadow-lg"
       >
-        <FaMoon size={25} className="text-black" />
+{     darkMode ?   <FaMoon size={25} className="text-black" />:<FaSun size={25} className="text-black" />}
       </button>
     </>
   );
